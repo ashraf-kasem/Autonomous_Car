@@ -6,9 +6,8 @@
 
 I copied the two most important files to the root of the repo for you to check them easily: <br/><br/>
 - main_with_traffic_detection_and_turn_with_recording_try_sim_time_with_map_client.py
-<br/>
 - map_server.py
- <br/>
+<br/>
 
 but if you want to see them in the project, please check these paths:
 
