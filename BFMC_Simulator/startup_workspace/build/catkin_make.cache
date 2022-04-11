@@ -1,0 +1,2 @@
+startup_package
+-DCATKIN_DEVEL_PREFIX=/home/ashraf/Documents/BFMC_Simulator/startup_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/ashraf/Documents/BFMC_Simulator/startup_workspace/install -G Unix Makefiles

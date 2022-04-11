@@ -1,0 +1,2113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="access" attr.type="string" />
+  <key id="d13" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d12" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d11" for="edge" attr.name="name" attr.type="string" />
+  <key id="d10" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d9" for="edge" attr.name="length" attr.type="string" />
+  <key id="d8" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d7" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d6" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d5" for="node" attr.name="x" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+  
+  
+  
+  <!-- the nodes that belongs to the one way road besid the motor highway -->
+    <node id="314">
+      <data key="d5">8.38</data>
+      <data key="d4">14.03</data>
+    </node>
+	<node id="426">
+      <data key="d5">9.09</data>
+      <data key="d4">14.07</data>
+    </node>
+	    <node id="435">
+      <data key="d5">12.1</data>
+      <data key="d4">12.87</data>
+    </node>
+	    <node id="447">
+      <data key="d5">12.63</data>
+      <data key="d4">10.62</data>
+    </node>
+	<node id="459">
+      <data key="d5">13.38</data>
+      <data key="d4">6.91</data>
+    </node>
+    <node id="468">
+      <data key="d5">11.87</data>
+      <data key="d4">4.17</data>
+    </node>
+
+
+<!-- the nodes that belongs to the motor highway up to down  -->	
+	<node id="308">
+      <data key="d5">6.2</data>
+      <data key="d4">13.77</data>
+    </node>
+    <node id="325">
+      <data key="d5">11.08</data>
+      <data key="d4">11.15</data>
+	</node>
+		<node id="335">
+	  <data key="d5">10.44</data>
+	  <data key="d4">7.42</data>
+	</node> 
+    <node id="305">
+      <data key="d5">10.11</data>
+      <data key="d4">4.35</data>
+    </node>
+
+
+
+<!-- the nodes that belongs to the motor highway down to up  -->
+    <node id="350">
+      <data key="d5">9.32</data>
+      <data key="d4">7.29</data>
+    </node>
+    <node id="360">
+      <data key="d5">9.98</data>
+      <data key="d4">10.98</data>
+    </node>	
+    <node id="370">
+      <data key="d5">7.21</data>
+      <data key="d4">13.0</data>
+    </node>	
+    <node id="374">
+      <data key="d5">5.68</data>
+      <data key="d4">12.97</data>
+    </node>
+
+
+<!-- the nodes that belongs to the area before motor highway  -->
+    <node id="55">
+      <data key="d5">5.08</data>
+      <data key="d4">13.55</data>
+    </node>
+	<node id="51">
+      <data key="d5">5.26</data>
+      <data key="d4">12.8</data>
+    </node>
+    <node id="105">
+      <data key="d5">5.27</data>
+      <data key="d4">12.04</data>
+    </node>	
+    <node id="53">
+      <data key="d5">4.33</data>
+      <data key="d4">13.36</data>
+    </node>
+    <node id="54">
+      <data key="d5">4.33</data>
+      <data key="d4">13.73</data>
+    </node>
+    <node id="52">
+      <data key="d5">4.9</data>
+      <data key="d4">12.8</data>
+    </node>	
+    <node id="108">
+      <data key="d5">4.9</data>
+      <data key="d4">12.14</data>
+    </node>
+	
+	
+	
+	
+<!-- the nodes that belongs to the round about  -->
+    <node id="306">
+      <data key="d5">10.4</data>
+      <data key="d4">4.1</data>
+    </node>
+	<node id="267">
+		<data key="d5">10.46</data>
+		<data key="d4">3.44</data>
+	</node>
+    <node id="271">
+      <data key="d5">9.21</data>
+      <data key="d4">3.53</data>
+    </node>
+	<node id="302">
+      <data key="d5">9.11</data>
+      <data key="d4">3.94</data>
+    </node>
+    <node id="304">
+      <data key="d5">9.74</data>
+      <data key="d4">4.35</data>
+    </node>
+
+
+<!-- the nodes that belongs to the area after round about  -->
+    <node id="234">
+      <data key="d5">11.97</data>
+      <data key="d4">3.93</data>
+    </node>
+    <node id="240">
+      <data key="d5">14.0</data>
+      <data key="d4">3.21</data>
+    </node>
+	<node id="228">
+      <data key="d5">11.59</data>
+      <data key="d4">3.55</data>
+    </node>
+	   <node id="222">
+      <data key="d5">13.71</data>
+      <data key="d4">3.03</data>
+    </node>
+    <node id="245">
+      <data key="d5">14.02</data>
+      <data key="d4">1.42</data>
+    </node>	
+
+    <node id="218">
+      <data key="d5">13.7</data>
+      <data key="d4">1.6</data>
+    </node>
+   <node id="213">
+      <data key="d5">12.0</data>
+      <data key="d4">1.24</data>
+    </node>
+    <node id="208">
+      <data key="d5">10.4</data>
+      <data key="d4">2.09</data>
+    </node>
+   <node id="203">
+      <data key="d5">8.52</data>
+      <data key="d4">2.09</data>
+    </node>
+   <node id="198">
+      <data key="d5">6.63</data>
+      <data key="d4">2.1</data>
+    </node>
+	   <node id="168">
+      <data key="d5">5.12</data>
+      <data key="d4">2.08</data>
+    </node>
+    <node id="164">
+      <data key="d5">3.61</data>
+      <data key="d4">2.08</data>
+    </node>
+    <node id="159">
+      <data key="d5">1.73</data>
+      <data key="d4">2.09</data>
+    </node>
+    <node id="250">
+      <data key="d5">12.36</data>
+      <data key="d4">0.73</data>
+    </node>
+    <node id="255">
+      <data key="d5">10.77</data>
+      <data key="d4">1.71</data>
+    </node>	
+    <node id="260">
+      <data key="d5">8.87</data>
+      <data key="d4">1.73</data>
+    </node>	
+    <node id="266">
+      <data key="d5">6.58</data>
+      <data key="d4">1.72</data>
+    </node>	
+    <node id="175">
+      <data key="d5">5.12</data>
+      <data key="d4">1.72</data>
+    </node>
+    <node id="179">
+      <data key="d5">3.6</data>
+      <data key="d4">1.71</data>
+    </node>	
+    <node id="184">
+      <data key="d5">1.69</data>
+      <data key="d4">1.72</data>
+    </node>
+    <node id="188">
+      <data key="d5">0.5</data>
+      <data key="d4">2.45</data>
+    </node>
+    <node id="192">
+      <data key="d5">0.45</data>
+      <data key="d4">3.96</data>
+    </node>	
+    <node id="195">
+      <data key="d5">0.45</data>
+      <data key="d4">5.09</data>
+    </node>
+    <node id="63">
+      <data key="d5">0.45</data>
+      <data key="d4">6.04</data>
+    </node>
+    <node id="64">
+      <data key="d5">0.64</data>
+      <data key="d4">6.79</data>
+    </node>
+    <node id="62">
+      <data key="d5">0.82</data>
+      <data key="d4">6.04</data>
+    </node>
+    <node id="149">
+      <data key="d5">0.82</data>
+      <data key="d4">5.28</data>
+    </node>
+    <node id="153">
+      <data key="d5">0.83</data>
+      <data key="d4">3.76</data>
+    </node>
+    <node id="156">
+      <data key="d5">0.83</data>
+      <data key="d4">2.62</data>
+    </node>
+
+
+
+
+
+<!-- the nodes that belongs to the area before round about  -->
+    <node id="272">
+      <data key="d5">8.83</data>
+      <data key="d4">3.56</data>
+    </node>
+    <node id="276">
+      <data key="d5">7.3</data>
+      <data key="d4">3.55</data>
+    </node>
+    <node id="280">
+      <data key="d5">5.78</data>
+      <data key="d4">3.57</data>
+    </node>	
+	<node id="284">
+      <data key="d5">4.89</data>
+      <data key="d4">4.63</data>
+    </node>
+    <node id="23">
+      <data key="d5">4.9</data>
+      <data key="d4">6.06</data>
+    </node>	
+    <node id="28">
+      <data key="d5">5.09</data>
+      <data key="d4">6.81</data>
+    </node>	
+	<node id="22">
+      <data key="d5">5.27</data>
+      <data key="d4">6.06</data>
+    </node>	
+    <node id="291">
+      <data key="d5">5.27</data>
+      <data key="d4">4.54</data>
+    </node>	
+	    <node id="295">
+      <data key="d5">6.47</data>
+      <data key="d4">3.93</data>
+    </node>
+    <node id="298">
+      <data key="d5">7.6</data>
+      <data key="d4">3.93</data>
+    </node>	
+    <node id="301">
+      <data key="d5">8.73</data>
+      <data key="d4">3.94</data>
+    </node>	
+    <node id="26">
+      <data key="d5">4.9</data>
+      <data key="d4">7.55</data>
+    </node>	
+	<node id="121">
+      <data key="d5">4.91</data>
+      <data key="d4">8.68</data>
+    </node>
+    <node id="32">
+      <data key="d5">4.91</data>
+      <data key="d4">9.9</data>
+    </node>	
+    <node id="37">
+      <data key="d5">5.09</data>
+      <data key="d4">10.64</data>
+    </node>	
+	    <node id="35">
+      <data key="d5">4.91</data>
+      <data key="d4">11.39</data>
+    </node>	
+	    <node id="36">
+      <data key="d5">5.27</data>
+      <data key="d4">11.39</data>
+    </node>	
+	    <node id="31">
+      <data key="d5">5.27</data>
+      <data key="d4">9.9</data>
+    </node>
+    <node id="116">
+      <data key="d5">5.27</data>
+      <data key="d4">8.75</data>
+    </node>	
+    <node id="27">
+      <data key="d5">5.27</data>
+      <data key="d4">7.55</data>
+    </node>	
+	
+	
+<!-- the nodes that belongs to the intersections area   -->	
+    <node id="60">
+      <data key="d5">1.38</data>
+      <data key="d4">6.97</data>
+    </node>	
+    <node id="14">
+      <data key="d5">2.11</data>
+      <data key="d4">6.98</data>
+    </node>	
+    <node id="19">
+      <data key="d5">2.86</data>
+      <data key="d4">6.79</data>
+    </node>	
+    <node id="17">
+      <data key="d5">3.61</data>
+      <data key="d4">6.98</data>
+    </node>	
+    <node id="25">
+      <data key="d5">4.34</data>
+      <data key="d4">6.99</data>
+    </node>	
+	    <node id="24">
+      <data key="d5">4.34</data>
+      <data key="d4">6.62</data>
+    </node>
+	    <node id="18">
+      <data key="d5">3.61</data>
+      <data key="d4">6.61</data>
+    </node>	
+	    <node id="19">
+      <data key="d5">2.86</data>
+      <data key="d4">6.79</data>
+    </node>	
+	    <node id="13">
+      <data key="d5">2.11</data>
+      <data key="d4">6.61</data>
+    </node>	
+	    <node id="61">
+      <data key="d5">1.38</data>
+      <data key="d4">6.61</data>
+    </node>	
+	    <node id="58">
+      <data key="d5">0.45</data>
+      <data key="d4">7.54</data>
+    </node>	
+    <node id="131">
+      <data key="d5">0.44</data>
+      <data key="d4">8.67</data>
+    </node>	
+   <node id="72">
+      <data key="d5">0.45</data>
+      <data key="d4">9.9</data>
+    </node>	
+    <node id="73">
+      <data key="d5">0.64</data>
+      <data key="d4">10.65</data>
+    </node>	
+    <node id="71">
+      <data key="d5">0.82</data>
+      <data key="d4">9.9</data>
+    </node>	
+    <node id="126">
+      <data key="d5">0.81</data>
+      <data key="d4">8.76</data>
+    </node>	
+    <node id="59">
+      <data key="d5">0.82</data>
+      <data key="d4">7.54</data>
+    </node>	
+    <node id="69">
+      <data key="d5">1.38</data>
+      <data key="d4">10.83</data>
+    </node>	
+    <node id="2">
+      <data key="d5">2.1</data>
+      <data key="d4">10.83</data>
+    </node>		
+    <node id="9">
+      <data key="d5">2.86</data>
+      <data key="d4">10.65</data>
+    </node>	
+    <node id="5">
+      <data key="d5">3.63</data>
+      <data key="d4">10.83</data>
+    </node>	
+	    <node id="34">
+      <data key="d5">4.35</data>
+      <data key="d4">10.82</data>
+    </node>	
+	    <node id="33">
+      <data key="d5">4.35</data>
+      <data key="d4">10.46</data>
+    </node>	
+	    <node id="6">
+      <data key="d5">3.63</data>
+      <data key="d4">10.47</data>
+    </node>	
+	    <node id="1">
+      <data key="d5">2.1</data>
+      <data key="d4">10.47</data>
+    </node>	
+	    <node id="70">
+      <data key="d5">1.38</data>
+      <data key="d4">10.46</data>
+    </node>	
+	    <node id="7">
+      <data key="d5">3.05</data>
+      <data key="d4">9.89</data>
+    </node>	
+    <node id="136">
+      <data key="d5">3.04</data>
+      <data key="d4">8.75</data>
+    </node>	
+    <node id="16">
+      <data key="d5">3.04</data>
+      <data key="d4">7.54</data>
+    </node>		
+    <node id="8">
+      <data key="d5">2.68</data>
+      <data key="d4">9.89</data>
+    </node>	
+    <node id="141">
+      <data key="d5">2.67</data>
+      <data key="d4">8.75</data>
+    </node>	
+    <node id="15">
+      <data key="d5">2.68</data>
+      <data key="d4">7.54</data>
+    </node>		
+    <node id="41">
+      <data key="d5">3.61</data>
+      <data key="d4">13.36</data>
+    </node>	
+    <node id="46">
+      <data key="d5">2.87</data>
+      <data key="d4">13.55</data>
+    </node>	
+    <node id="40">
+      <data key="d5">3.61</data>
+      <data key="d4">13.73</data>
+    </node>	
+     <node id="42">
+      <data key="d5">3.05</data>
+      <data key="d4">12.8</data>
+    </node>	
+    <node id="99">
+      <data key="d5">3.05</data>
+      <data key="d4">12.04</data>
+    </node>	
+    <node id="4">
+      <data key="d5">3.05</data>
+      <data key="d4">11.41</data>
+    </node>		
+	    <node id="3">
+      <data key="d5">2.68</data>
+      <data key="d4">11.41</data>
+    </node>	
+		    <node id="102">
+      <data key="d5">2.67</data>
+      <data key="d4">12.17</data>
+    </node>
+	    <node id="43">
+      <data key="d5">2.69</data>
+      <data key="d4">12.8</data>
+    </node>	
+	    <node id="44">
+      <data key="d5">2.12</data>
+      <data key="d4">13.36</data>
+    </node>	
+	    <node id="78">
+      <data key="d5">1.38</data>
+      <data key="d4">13.73</data>
+    </node>	
+    <node id="79">
+      <data key="d5">1.38</data>
+      <data key="d4">13.36</data>
+    </node>	
+    <node id="82">
+      <data key="d5">0.64</data>
+      <data key="d4">13.55</data>
+    </node>	
+	    <node id="45">
+      <data key="d5">2.12</data>
+      <data key="d4">13.73</data>
+    </node>	
+    <node id="80">
+      <data key="d5">0.82</data>
+      <data key="d4">12.8</data>
+    </node>	
+	    <node id="93">
+      <data key="d5">0.82</data>
+      <data key="d4">12.04</data>
+    </node>
+	    <node id="68">
+      <data key="d5">0.82</data>
+      <data key="d4">11.39</data>
+    </node>	
+    <node id="67">
+      <data key="d5">0.45</data>
+      <data key="d4">11.39</data>
+    </node>	
+    <node id="96">
+      <data key="d5">0.46</data>
+      <data key="d4">12.15</data>
+    </node>	
+	    <node id="81">
+      <data key="d5">0.45</data>
+      <data key="d4">12.8</data>
+    </node>	
+	    <node id="76">
+      <data key="d5">0.45</data>
+      <data key="d4">14.29</data>
+    </node>	
+		    <node id="85">
+      <data key="d5">0.46</data>
+      <data key="d4">14.67</data>
+    </node>
+    <node id="77">
+      <data key="d5">0.82</data>
+      <data key="d4">14.29</data>
+    </node>
+    <node id="86">
+      <data key="d5">0.83</data>
+      <data key="d4">14.67</data>
+    </node>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   <!-- the one way road besid the motor highway p1 --> 
+       <edge source="314" target="426" id="0">
+      <data key="d7">521650000</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">0.7111258679024401</data>
+      <data key="d10">LINESTRING (8.38 14.03, 9.09 14.07)</data>
+    </edge>
+	<!-- the one way road besid the motor highway p2--> 
+    <edge source="426" target="435" id="0">
+      <data key="d7">521650001</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">3.412290350849486</data>
+      <data key="d10">LINESTRING (9.09 14.07, 9.47 14.11, 9.84 14.1, 10.22 14.07, 10.59 13.98, 10.94 13.84, 11.26 13.63, 11.57 13.42, 11.84 13.15, 12.1 12.87)</data>
+    </edge>
+	
+	<!-- the one way road besid the motor highway p3--> 
+    <edge source="435" target="447" id="0">
+      <data key="d7">521650002</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">4.566272329162264</data>
+      <data key="d10">LINESTRING (12.1 12.87, 12.42 12.67, 12.8 12.64, 13.18 12.66, 13.53 12.53, 13.82 12.29, 14.0 11.96, 14.07 11.58, 13.96 11.21, 13.72 10.92, 13.39 10.72, 13.01 10.68, 12.63 10.62)</data>
+    </edge>
+	
+	<!-- the one way road besid the motor highway p4--> 
+    <edge source="447" target="459" id="0">
+      <data key="d7">521650003</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">4.573412270423637</data>
+      <data key="d10">LINESTRING (12.63 10.62, 12.29 10.46, 12.03 10.18, 11.87 9.83, 11.84 9.44, 11.94 9.08, 12.16 8.76, 12.33 8.43, 12.45 8.06, 12.61 7.72, 12.89 7.46, 13.21 7.24, 13.38 6.91)</data>
+    </edge>
+  
+  	<!-- the one way road besid the motor highway p5--> 
+    <edge source="459" target="468" id="0">
+      <data key="d7">521650004</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">3.4451224168213677</data>
+      <data key="d10">LINESTRING (13.38 6.91, 13.43 6.53, 13.33 6.16, 13.1 5.85, 12.76 5.69, 12.42 5.52, 12.13 5.26, 11.94 4.93, 11.87 4.55, 11.87 4.17)</data>
+    </edge>
+  
+
+	<!-- the motor highway   up to down p1--> 
+    <edge source="308" target="314" id="0">
+      <data key="d7">521650005</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">2.273522722001052</data>
+      <data key="d10">LINESTRING (6.2 13.77, 6.52 13.97, 6.87 14.12, 7.24 14.12, 7.62 14.12, 8.0 14.08, 8.38 14.03)</data>
+    </edge>
+	
+	<!-- the motor highway   up to down p2--> 
+    <edge source="314" target="325" id="0">
+      <data key="d7">521650006</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">4.178208601301242</data>
+      <data key="d10">LINESTRING (8.38 14.03, 8.74 13.93, 9.09 13.78, 9.42 13.59, 9.73 13.37, 10.02 13.13, 10.29 12.86, 10.51 12.55, 10.71 12.22, 10.87 11.88, 11.01 11.52, 11.08 11.15)</data>
+    </edge>
+	
+	<!-- the motor highway   up to down p3--> 
+    <edge source="325" target="335" id="0">
+      <data key="d7">521650007</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">3.8244211626104243</data>
+      <data key="d10">LINESTRING (11.08 11.15, 11.13 10.77, 11.12 10.39, 11.08 10.01, 10.98 9.64, 10.86 9.28, 10.73 8.92, 10.61 8.55, 10.53 8.18, 10.47 7.8, 10.44 7.42)</data>
+    </edge>
+	
+	
+	
+	<!-- the motor highway   up to down p4--> 
+    <edge source="335" target="305" id="0">
+      <data key="d7">521650008</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">3.1636849604759103</data>
+      <data key="d10">LINESTRING (10.44 7.42, 10.43 7.04, 10.42 6.66, 10.42 6.28, 10.42 5.9, 10.36 5.52, 10.15 5.2, 10.03 4.84, 10.11 4.35)</data>
+    </edge>
+	
+	<!-- the motor highway  down to up p1--> 
+    <edge source="304" target="350" id="0">
+      <data key="d7">521650021</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">3.027603828402326</data>
+      <data key="d10">LINESTRING (9.74 4.35, 9.68 4.73, 9.65 5.1, 9.44 5.43, 9.32 5.78, 9.31 6.16, 9.3 6.54, 9.31 6.91, 9.32 7.29)</data>
+    </edge>
+	
+	
+	<!-- the motor highway  down to up p2--> 
+    <edge source="350" target="360" id="0">
+      <data key="d7">521650022</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">3.782851714409679</data>
+      <data key="d10">LINESTRING (9.32 7.29, 9.34 7.67, 9.38 8.05, 9.44 8.42, 9.53 8.78, 9.62 9.15, 9.76 9.5, 9.9 9.85, 9.98 10.22, 10.0 10.6, 9.98 10.98)</data>
+    </edge>
+
+	<!-- the motor highway  down to up p3--> 
+    <edge source="360" target="370" id="0">
+      <data key="d7">521650023</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">3.796369896817504</data>
+      <data key="d10">LINESTRING (9.98 10.98, 9.9 11.35, 9.75 11.7, 9.55 12.02, 9.3 12.31, 9.02 12.56, 8.7 12.76, 8.34 12.88, 7.97 12.98, 7.59 13.01, 7.21 13.0)</data>
+    </edge>
+
+	<!-- the motor highway  down to up p4--> 
+    <edge source="370" target="374" id="0">
+      <data key="d7">521650024</data>
+      <data key="d12">2</data>
+      <data key="d8">trunk</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5317060394890503</data>
+      <data key="d10">LINESTRING (7.21 13.0, 6.83 12.98, 6.44 12.97, 6.06 12.99, 5.68 12.97)</data>
+    </edge>
+
+
+	<!-- the area before motor highway  p1--> 
+    <edge source="374" target="55" id="0">
+      <data key="d7">521650025</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.8345058418010025</data>
+      <data key="d10">LINESTRING (5.68 12.97, 5.08 13.55)</data>
+    </edge>
+
+
+	<!-- the area before motor highway  p2--> 
+    <edge source="55" target="308" id="0">
+      <data key="d7">521650026</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1434534892495143</data>
+      <data key="d10">LINESTRING (5.08 13.55, 5.83 13.73, 6.2 13.77)</data>
+    </edge>
+
+	<!-- the area before motor highway  p3--> 
+    <edge source="374" target="51" id="0">
+      <data key="d7">521650027</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.45310043036836756</data>
+      <data key="d10">LINESTRING (5.68 12.97, 5.26 12.8)</data>
+    </edge>	
+
+
+	<!-- the area before motor highway  p4--> 
+    <edge source="51" target="105" id="0">
+      <data key="d7">521650028</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7601315561749658</data>
+      <data key="d10">LINESTRING (5.26 12.8, 5.27 12.42, 5.27 12.04)</data>
+    </edge>		
+
+
+	<!-- the area before motor highway  p5--> 
+    <edge source="55" target="53" id="0">
+      <data key="d7">521650029</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553882</data>
+      <data key="d10">LINESTRING (5.08 13.55, 4.33 13.36)</data>
+    </edge>		
+
+
+	<!-- the area before motor highway  p6--> 
+    <edge source="55" target="51" id="0">
+      <data key="d7">521650030</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (5.08 13.55, 5.26 12.8)</data>
+    </edge>	
+
+	<!-- the area before motor highway  p7--> 
+    <edge source="54" target="55" id="0">
+      <data key="d7">521650031</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (5.08 13.55, 4.33 13.73)</data>
+    </edge>		
+
+	<!-- the area before motor highway  p8--> 
+    <edge source="52" target="55" id="0">
+      <data key="d7">521650032</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (4.9 12.8, 5.08 13.55)</data>
+    </edge>		
+
+	<!-- the area before motor highway  p8--> 
+    <edge source="108" target="52" id="0">
+      <data key="d7">521650033</data>
+      <data key="d12">2</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6603100706974024</data>
+      <data key="d10">LINESTRING (4.9 12.14, 4.89 12.52, 4.9 12.8)</data>
+    </edge>	
+	
+	<!-- the round about  p1 -->
+    <edge source="305" target="306" id="0">
+      <data key="d7">521650009</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.38288379438153364</data>
+      <data key="d10">LINESTRING (10.11 4.35, 10.4 4.1)</data>
+    </edge>
+
+	<!-- the round about  p2 -->
+    <edge source="306" target="267" id="0">
+      <data key="d7">521650010</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6762857528538186</data>
+      <data key="d10">LINESTRING (10.4 4.1, 10.5 3.74, 10.46 3.44)</data>
+    </edge>	
+	
+	<!-- the round about  p3 -->
+    <edge source="267" target="271" id="0">
+      <data key="d7">521650011</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5132428832596392</data>
+      <data key="d10">LINESTRING (10.46 3.44, 10.17 3.19, 9.8 3.1, 9.45 3.25, 9.21 3.53)</data>
+    </edge>	
+
+	<!-- the round about  p4 -->
+    <edge source="271" target="302" id="0">
+      <data key="d7">521650012</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.4220189569201844</data>
+      <data key="d10">LINESTRING (9.21 3.53, 9.11 3.94)</data>
+    </edge>	
+
+	<!-- the round about  p5 -->
+    <edge source="302" target="304" id="0">
+      <data key="d7">521650013</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.760204115680347</data>
+      <data key="d10">LINESTRING (9.11 3.94, 9.39 4.19, 9.74 4.35)</data>
+    </edge>	
+	
+	
+	<!-- the round about  p6 -->
+	<edge source="304" target="305" id="0">
+      <data key="d7">521650014</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.3699999999999992</data>
+      <data key="d10">LINESTRING (9.74 4.35, 10.11 4.35)</data>
+    </edge>	
+	
+	
+	<!-- the area after round about  p1 -->	
+    <edge source="305" target="234" id="0">
+      <data key="d7">521650015</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.981203346985283</data>
+      <data key="d10">LINESTRING (10.11 4.35, 10.4 4.1, 10.84 3.94, 11.21 3.94, 11.59 3.93, 11.97 3.93)</data>
+    </edge>	
+
+	<!-- the area after round about  p2 -->	
+    <edge source="468" target="234" id="0">
+      <data key="d7">521650016</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.2600000000000004</data>
+      <data key="d10">LINESTRING (11.87 4.17, 11.97 3.93)</data>
+    </edge>	
+
+	<!-- the area after round about  p3 -->	
+    <edge source="234" target="240" id="0">
+      <data key="d7">521650017</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">2.269627522581615</data>
+      <data key="d10">LINESTRING (11.97 3.93, 12.34 3.93, 12.72 3.93, 13.09 3.87, 13.45 3.73, 13.74 3.49, 14.0 3.21)</data>
+    </edge>	
+
+	<!-- the area after round about  p4 -->	
+    <edge source="468" target="228" id="0">
+      <data key="d7">521650018</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6802940540677977</data>
+      <data key="d10">LINESTRING (11.87 4.17, 11.59 3.55)</data>
+    </edge>	
+
+	<!-- the area after round about  p5 -->	
+    <edge source="228" target="267" id="0">
+      <data key="d7">521650019</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1491045629504977</data>
+      <data key="d10">LINESTRING (11.59 3.55, 11.21 3.56, 10.83 3.56, 10.46 3.44)</data>
+    </edge>	
+
+	<!-- the area after round about  p6 -->	
+    <edge source="222" target="228" id="0">
+      <data key="d7">521650020</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">2.2896774068449384</data>
+      <data key="d10">LINESTRING (13.71 3.03, 13.44 3.3, 13.11 3.49, 12.73 3.56, 12.35 3.56, 11.97 3.54, 11.59 3.55)</data>
+    </edge>	
+
+
+	<!-- the area after round about  p7 -->	
+    <edge source="240" target="245" id="0">
+      <data key="d7">521650034</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9000944919871454</data>
+      <data key="d10">LINESTRING (14.0 3.21, 14.18 2.88, 14.28 2.51, 14.28 2.13, 14.19 1.76, 14.02 1.42)</data>
+    </edge>	
+
+
+	<!-- the area after round about  p8 -->	
+    <edge source="218" target="222" id="0">
+      <data key="d7">521650035</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.507840693350742</data>
+      <data key="d10">LINESTRING (13.7 1.6, 13.86 1.94, 13.93 2.31, 13.85 2.68, 13.71 3.03)</data>
+    </edge>	
+
+
+	<!-- the area after round about  p9 -->	
+    <edge source="213" target="218" id="0">
+      <data key="d7">521650036</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9004962660622942</data>
+      <data key="d10">LINESTRING (12.0 1.24, 12.35 1.09, 12.73 1.06, 13.1 1.15, 13.43 1.33, 13.7 1.6)</data>
+    </edge>	
+
+
+
+	<!-- the area after round about  p10 -->	
+    <edge source="208" target="213" id="0">
+      <data key="d7">521650037</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.8895151287117264</data>
+      <data key="d10">LINESTRING (10.4 2.09, 10.78 2.08, 11.14 1.97, 11.46 1.76, 11.72 1.49, 12.0 1.24)</data>
+    </edge>	
+
+
+	<!-- the area after round about  p11 -->	
+    <edge source="203" target="208" id="0">
+      <data key="d7">521650038</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.8800000000000008</data>
+      <data key="d10">LINESTRING (8.52 2.09, 8.89 2.09, 9.27 2.09, 9.65 2.09, 10.02 2.09, 10.4 2.09)</data>
+    </edge>	
+
+
+
+	<!-- the area after round about  p12 -->	
+    <edge source="198" target="203" id="0">
+      <data key="d7">521650039</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.8901351104664346</data>
+      <data key="d10">LINESTRING (6.63 2.1, 7.01 2.1, 7.38 2.09, 7.76 2.09, 8.14 2.09, 8.52 2.09)</data>
+    </edge>	
+
+
+
+	<!-- the area after round about  p13 -->	
+    <edge source="168" target="198" id="0">
+      <data key="d7">521650040</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.510266666641399</data>
+      <data key="d10">LINESTRING (5.12 2.08, 5.5 2.09, 5.88 2.09, 6.25 2.1, 6.63 2.1)</data>
+    </edge>	
+	
+	<!-- the area after round about  14 -->	
+    <edge source="164" target="168" id="0">
+      <data key="d7">521650041</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5100000000000002</data>
+      <data key="d10">LINESTRING (3.61 2.08, 3.99 2.08, 4.37 2.08, 4.75 2.08, 5.12 2.08)</data>
+    </edge>	
+		
+	<!-- the area after round about  15 -->	
+    <edge source="159" target="164" id="0">
+      <data key="d7">521650042</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.880131556174964</data>
+      <data key="d10">LINESTRING (1.73 2.09, 2.11 2.09, 2.48 2.09, 2.86 2.09, 3.24 2.08, 3.61 2.08)</data>
+    </edge>		
+
+
+	<!-- the area after round about  16 -->	
+    <edge source="245" target="250" id="0">
+      <data key="d7">521650043</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9091143644646251</data>
+      <data key="d10">LINESTRING (14.02 1.42, 13.76 1.13, 13.47 0.89, 13.11 0.75, 12.74 0.69, 12.36 0.73)</data>
+    </edge>		
+
+
+	<!-- the area after round about  17 -->	
+    <edge source="250" target="255" id="0">
+      <data key="d7">521650044</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9115622388714688</data>
+      <data key="d10">LINESTRING (12.36 0.73, 11.99 0.85, 11.66 1.03, 11.4 1.31, 11.13 1.58, 10.77 1.71)</data>
+    </edge>	
+
+	<!-- the area after round about  18 -->	
+    <edge source="255" target="260" id="0">
+      <data key="d7">521650045</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9002631123499287</data>
+      <data key="d10">LINESTRING (10.77 1.71, 10.39 1.71, 10.01 1.71, 9.63 1.72, 9.25 1.72, 8.87 1.73)</data>
+    </edge>	
+
+
+	<!-- the area after round about  19 -->	
+    <edge source="260" target="266" id="0">
+      <data key="d7">521650046</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">2.2909206203337007</data>
+      <data key="d10">LINESTRING (8.87 1.73, 8.49 1.73, 8.11 1.74, 7.73 1.75, 7.35 1.74, 6.96 1.74, 6.58 1.72	)</data>
+    </edge>	
+
+
+	<!-- the area after round about  20 -->	
+    <edge source="266" target="175" id="0">
+      <data key="d7">521650047</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.4602877680466066</data>
+      <data key="d10">LINESTRING (6.58 1.72, 6.26 1.71, 5.88 1.71, 5.5 1.71, 5.12 1.72	)</data>
+    </edge>	
+
+
+
+	<!-- the area after round about  20 -->	
+    <edge source="175" target="179" id="0">
+      <data key="d7">521650048</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5201315561749642</data>
+      <data key="d10">LINESTRING (5.12 1.72, 4.74 1.72, 4.36 1.71, 3.98 1.71, 3.6 1.71	)</data>
+    </edge>	
+
+
+	<!-- the area after round about  21 -->	
+    <edge source="179" target="184" id="0">
+      <data key="d7">521650049</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9101315561749643</data>
+      <data key="d10">LINESTRING (3.6 1.71, 3.21 1.71, 2.83 1.72, 2.45 1.72, 2.07 1.72, 1.69 1.72	)</data>
+    </edge>		
+	
+
+
+	<!-- the area before round about  p1 -->	
+    <edge source="271" target="272" id="0">
+      <data key="d7">521650050</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.9101315561749643</data>
+      <data key="d10">LINESTRING (	9.21 3.53, 8.83 3.56)</data>
+    </edge>	
+
+	<!-- the area before round about  p2 -->	
+    <edge source="272" target="276" id="0">
+      <data key="d7">521650051</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.530391296412552</data>
+      <data key="d10">LINESTRING (8.83 3.56, 8.45 3.55, 8.06 3.54, 7.68 3.54, 7.3 3.55	)</data>
+    </edge>	
+
+
+	<!-- the area before round about  p3 -->	
+    <edge source="276" target="280" id="0">
+      <data key="d7">521650052</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.520789064158737</data>
+      <data key="d10">LINESTRING (7.3 3.55, 6.92 3.57, 6.54 3.57, 6.16 3.56, 5.78 3.57	)</data>
+    </edge>	
+	
+
+	<!-- the area before round about  p4 -->	
+    <edge source="280" target="284" id="0">
+      <data key="d7">521650053</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5161070402896684</data>
+      <data key="d10">LINESTRING (5.78 3.57, 5.41 3.67, 5.13 3.93, 4.95 4.26, 4.89 4.63	)</data>
+    </edge>	
+
+
+	<!-- the area before round about  p5 -->	
+    <edge source="284" target="23" id="0">
+      <data key="d7">521650054</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.4301666203960726</data>
+      <data key="d10">LINESTRING (4.89 4.63, 4.89 5.01, 4.89 5.38, 4.89 5.76, 4.9 6.06	)</data>
+    </edge>		
+
+	<!-- the area before round about  p6 -->	
+    <edge source="23" target="28" id="0">
+      <data key="d7">521650055</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553878</data>
+      <data key="d10">LINESTRING (4.9 6.06, 5.09 6.81	)</data>
+    </edge>		
+
+	<!-- the area before round about  p7 -->	
+    <edge source="28" target="22" id="0">
+      <data key="d7">521650056</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (5.09 6.81, 5.27 6.06)</data>
+    </edge>		
+
+
+	<!-- the area before round about  p8 -->	
+    <edge source="22" target="291" id="0">
+      <data key="d7">521650057</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5199999999999996</data>
+      <data key="d10">LINESTRING (5.27 6.06, 5.27 5.68, 5.27 5.3, 5.27 4.92, 5.27 4.54)</data>
+    </edge>	
+
+
+	<!-- the area before round about  p9 -->	
+    <edge source="291" target="295" id="0">
+      <data key="d7">521650058</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5248112735540842</data>
+      <data key="d10">LINESTRING (5.27 4.54, 5.41 4.18, 5.71 3.95, 6.09 3.93, 6.47 3.93)</data>
+    </edge>	
+
+	<!-- the area before round about  p10 -->	
+    <edge source="295" target="298" id="0">
+      <data key="d7">521650059</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.13</data>
+      <data key="d10">LINESTRING (6.47 3.93, 6.84 3.93, 7.22 3.93, 7.6 3.93)</data>
+    </edge>	
+	
+	<!-- the area before round about  p11 -->	
+    <edge source="298" target="301" id="0">
+      <data key="d7">521650060</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.130131556174965</data>
+      <data key="d10">LINESTRING (7.6 3.93, 7.98 3.93, 8.35 3.93, 8.73 3.94)</data>
+    </edge>		
+
+	<!-- the area before round about  p12 -->	
+    <edge source="301" target="302" id="0">
+      <data key="d7">521650061</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.379999999999999</data>
+      <data key="d10">LINESTRING (8.73 3.94, 9.11 3.94)</data>
+    </edge>		
+
+
+
+	<!-- the area before round about  p13 -->	
+    <edge source="28" target="26" id="0">
+      <data key="d7">521650062</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7640026177965624</data>
+      <data key="d10">LINESTRING (5.09 6.81, 4.9 7.55)</data>
+    </edge>			
+	
+
+	<!-- the area before round about  p14 -->	
+    <edge source="26" target="121" id="0">
+      <data key="d7">521650063</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.130131556174964</data>
+      <data key="d10">LINESTRING (4.9 7.55, 4.91 7.93, 4.91 8.31, 4.91 8.68)</data>
+    </edge>		
+
+
+
+	<!-- the area before round about  p15 -->	
+    <edge source="121" target="32" id="0">
+      <data key="d7">521650064</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.2202402389880584</data>
+      <data key="d10">LINESTRING (4.91 8.68, 4.92 9.06, 4.92 9.44, 4.91 9.9)</data>
+    </edge>		
+
+
+	<!-- the area before round about  p16 -->	
+    <edge source="32" target="37" id="0">
+      <data key="d7">521650065</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863909</data>
+      <data key="d10">LINESTRING (4.91 9.9, 5.09 10.64)</data>
+    </edge>	
+
+
+	<!-- the area before round about  p17 -->	
+    <edge source="37" target="35" id="0">
+      <data key="d7">521650066</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (5.09 10.64, 4.91 11.39)</data>
+    </edge>	
+	
+
+	<!-- the area before round about  p18 -->	
+    <edge source="35" target="108" id="0">
+      <data key="d7">521650067</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7501315561749642</data>
+      <data key="d10">LINESTRING (4.91 11.39, 4.91 11.76, 4.9 12.14)</data>
+    </edge>	
+
+
+
+	<!-- the area before round about  p20 -->	
+    <edge source="105" target="36" id="0">
+      <data key="d7">521650068</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6499999999999986</data>
+      <data key="d10">LINESTRING (5.27 12.04, 5.27 11.66, 5.27 11.39)</data>
+    </edge>	
+	
+	<!-- the area before round about  p21 -->	
+    <edge source="36" target="37" id="0">
+      <data key="d7">521650069</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (5.27 11.39, 5.09 10.64)</data>
+    </edge>		
+	
+	<!-- the area before round about  p22 -->	
+    <edge source="37" target="31" id="0">
+      <data key="d7">521650070</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863909</data>
+      <data key="d10">LINESTRING (5.09 10.64, 5.27 9.9)</data>
+    </edge>		
+
+
+	<!-- the area before round about  p23 -->	
+    <edge source="31" target="116" id="0">
+      <data key="d7">521650071</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1500000000000004</data>
+      <data key="d10">LINESTRING (5.27 9.9, 5.27 9.51, 5.27 9.13, 5.27 8.75)</data>
+    </edge>			
+
+
+	<!-- the area before round about  p24 -->	
+    <edge source="116" target="27" id="0">
+      <data key="d7">521650072</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.2000000000000002</data>
+      <data key="d10">LINESTRING (5.27 8.75, 5.27 8.37, 5.27 7.99, 5.27 7.55)</data>
+    </edge>		
+
+
+	<!-- the area before round about  p25 -->	
+    <edge source="27" target="28" id="0">
+      <data key="d7">521650073</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863909</data>
+      <data key="d10">LINESTRING (5.27 7.55, 5.09 6.81)</data>
+    </edge>		
+
+	<!-- the area after round about  22 -->	
+    <edge source="184" target="188" id="0">
+      <data key="d7">521650074</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5248576018392974</data>
+      <data key="d10">LINESTRING (1.69 1.72, 1.31 1.73, 0.95 1.85, 0.66 2.11, 0.5 2.45)</data>
+    </edge>	
+
+
+	<!-- the area after round about  23 -->	
+    <edge source="188" target="192" id="0">
+      <data key="d7">521650075</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.513542024576135</data>
+      <data key="d10">LINESTRING (0.5 2.45, 0.45 2.83, 0.44 3.2, 0.45 3.58, 0.45 3.96)</data>
+    </edge>	
+
+	<!-- the area after round about  24 -->	
+    <edge source="192" target="195" id="0">
+      <data key="d7">521650076</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1302666666413992</data>
+      <data key="d10">LINESTRING (0.45 3.96, 0.44 4.33, 0.44 4.71, 0.45 5.09)</data>
+    </edge>	
+
+	<!-- the area after round about  25 -->	
+    <edge source="195" target="63" id="0">
+      <data key="d7">521650077</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.9500000000000002</data>
+      <data key="d10">LINESTRING (0.45 5.09, 0.45 5.46, 0.45 5.84, 0.45 6.04)</data>
+    </edge>		
+	
+	
+	<!-- the area after round about  26 -->	
+    <edge source="63" target="64" id="0">
+      <data key="d7">521650078</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.773692445355388</data>
+      <data key="d10">LINESTRING (0.45 6.04, 0.64 6.79)</data>
+    </edge>		
+
+	<!-- the area after round about  27 -->	
+    <edge source="64" target="62" id="0">
+      <data key="d7">521650079</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (0.64 6.79, 0.82 6.04)</data>
+    </edge>		
+
+	<!-- the area after round about  28 -->	
+    <edge source="62" target="149" id="0">
+      <data key="d7">521650080</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7599999999999998</data>
+      <data key="d10">LINESTRING (0.82 6.04, 0.82 5.66, 0.82 5.28)</data>
+    </edge>	
+
+
+	<!-- the area after round about  29 -->	
+    <edge source="149" target="153" id="0">
+      <data key="d7">521650081</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.5201315561749646</data>
+      <data key="d10">LINESTRING (0.82 5.28, 0.82 4.9, 0.83 4.52, 0.83 4.14, 0.83 3.76)</data>
+    </edge>	
+
+
+	<!-- the area after round about  30 -->	
+    <edge source="153" target="156" id="0">
+      <data key="d7">521650082</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.140263112349928</data>
+      <data key="d10">LINESTRING (0.83 3.76, 0.83 3.38, 0.82 3.0, 0.83 2.62)</data>
+    </edge>	
+
+
+	<!-- the area after round about  31 -->	
+    <edge source="156" target="159" id="0">
+      <data key="d7">521650083</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1372135296862544</data>
+      <data key="d10">LINESTRING (0.83 2.62, 1.02 2.29, 1.35 2.11, 1.73 2.09)</data>
+    </edge>		
+
+
+
+
+
+<!-- the intersections area  p1 -->	
+    <edge source="64" target="60" id="0">
+      <data key="d7">521650084</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863907</data>
+      <data key="d10">LINESTRING (0.64 6.79, 1.38 6.97)</data>
+    </edge>		
+
+
+<!-- the intersections area  p2 -->	
+    <edge source="60" target="14" id="0">
+      <data key="d7">521650085</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.730142828000232</data>
+      <data key="d10">LINESTRING (1.38 6.97, 1.76 6.97, 2.11 6.98)</data>
+    </edge>		
+
+
+<!-- the intersections area  p3 -->	
+    <edge source="14" target="19" id="0">
+      <data key="d7">521650086</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553882</data>
+      <data key="d10">LINESTRING (2.11 6.98, 2.86 6.79)</data>
+    </edge>		
+
+
+
+<!-- the intersections area  p4 -->	
+    <edge source="19" target="17" id="0">
+      <data key="d7">521650087</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553882</data>
+      <data key="d10">LINESTRING (2.86 6.79, 3.61 6.98)</data>
+    </edge>	
+
+<!-- the intersections area  p5 -->	
+    <edge source="17" target="25" id="0">
+      <data key="d7">521650088</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7301388621073821</data>
+      <data key="d10">LINESTRING (3.61 6.98, 3.98 6.98, 4.34 6.99)</data>
+    </edge>	
+	
+	
+<!-- the intersections area  p6 -->	
+    <edge source="25" target="28" id="0">
+      <data key="d7">521650089</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309466</data>
+      <data key="d10">LINESTRING (4.34 6.99, 5.09 6.81)</data>
+    </edge>		
+
+
+	
+<!-- the intersections area  p7 -->	
+    <edge source="28" target="24" id="0">
+      <data key="d7">521650090</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553878</data>
+      <data key="d10">LINESTRING (5.09 6.81, 4.34 6.62)</data>
+    </edge>		
+
+
+<!-- the intersections area  p8 -->	
+    <edge source="24" target="18" id="0">
+      <data key="d7">521650091</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.730142828000232</data>
+      <data key="d10">LINESTRING (4.34 6.62, 3.96 6.62, 3.61 6.61)</data>
+    </edge>		
+
+
+<!-- the intersections area  p9 -->	
+    <edge source="18" target="19" id="0">
+      <data key="d7">521650092</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (3.61 6.61, 2.86 6.79)</data>
+    </edge>	
+
+
+
+<!-- the intersections area  p10 -->	
+    <edge source="19" target="13" id="0">
+      <data key="d7">521650093</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (2.86 6.79, 2.11 6.61)</data>
+    </edge>	
+
+
+<!-- the intersections area  p11 -->	
+    <edge source="13" target="61" id="0">
+      <data key="d7">521650094</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.73</data>
+      <data key="d10">LINESTRING (2.11 6.61, 1.73 6.61, 1.38 6.61)</data>
+    </edge>			
+
+<!-- the intersections area  p12 -->	
+    <edge source="61" target="64" id="0">
+      <data key="d7">521650095</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863907</data>
+      <data key="d10">LINESTRING (1.38 6.61, 0.64 6.79)</data>
+    </edge>	
+
+
+
+<!-- the intersections area  p13 -->	
+    <edge source="64" target="58" id="0">
+      <data key="d7">521650096</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.773692445355388</data>
+      <data key="d10">LINESTRING (0.64 6.79, 0.45 7.54)</data>
+    </edge>	
+
+
+<!-- the intersections area  p14 -->	
+    <edge source="58" target="131" id="0">
+      <data key="d7">521650097</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.130131556174964</data>
+      <data key="d10">LINESTRING (0.45 7.54, 0.45 7.91, 0.45 8.29, 0.44 8.67)</data>
+    </edge>	
+
+
+
+<!-- the intersections area  p15 -->	
+    <edge source="131" target="72" id="0">
+      <data key="d7">521650098</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.2303708220077119</data>
+      <data key="d10">LINESTRING (0.44 8.67, 0.45 9.04, 0.44 9.42, 0.45 9.9)</data>
+    </edge>	
+
+
+<!-- the intersections area  p16 -->	
+    <edge source="72" target="73" id="0">
+      <data key="d7">521650099</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.773692445355388</data>
+      <data key="d10">LINESTRING (0.45 9.9, 0.64 10.65)</data>
+    </edge>	
+
+
+<!-- the intersections area  p16 -->	
+    <edge source="73" target="71" id="0">
+      <data key="d7">521650100</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (0.64 10.65, 0.82 9.9)</data>
+    </edge>	
+
+
+<!-- the intersections area  p17 -->	
+    <edge source="71" target="126" id="0">
+      <data key="d7">521650101</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1401315561749648</data>
+      <data key="d10">LINESTRING (0.82 9.9, 0.82 9.52, 0.81 9.14, 0.81 8.76)</data>
+    </edge>	
+
+
+<!-- the intersections area  p18 -->	
+    <edge source="126" target="59" id="0">
+      <data key="d7">521650102</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.2201110973970757</data>
+      <data key="d10">LINESTRING (0.81 8.76, 0.81 8.38, 0.81 7.99, 0.82 7.54)</data>
+    </edge>	
+
+
+<!-- the intersections area  p19 -->	
+    <edge source="59" target="64" id="0">
+      <data key="d7">521650103</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (0.82 7.54, 0.64 6.79)</data>
+    </edge>	
+
+
+<!-- the intersections area  p20 -->	
+    <edge source="73" target="69" id="0">
+      <data key="d7">521650104</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863907</data>
+      <data key="d10">LINESTRING (0.64 10.65, 1.38 10.83)</data>
+    </edge>	
+
+
+
+
+<!-- the intersections area  p21 -->	
+    <edge source="69" target="2" id="0">
+      <data key="d7">521650105</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7202785832088634</data>
+      <data key="d10">LINESTRING (1.38 10.83, 1.76 10.84, 2.1 10.83)</data>
+    </edge>
+
+<!-- the intersections area  p22 -->	
+    <edge source="2" target="9" id="0">
+      <data key="d7">521650106</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7810249675906651</data>
+      <data key="d10">LINESTRING (2.1 10.83, 2.86 10.65)</data>
+    </edge>
+
+<!-- the intersections area  p23 -->	
+    <edge source="9" target="5" id="0">
+      <data key="d7">521650107</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7907591289387684</data>
+      <data key="d10">LINESTRING (2.86 10.65, 3.63 10.83)</data>
+    </edge>
+	
+<!-- the intersections area  p24 -->	
+    <edge source="5" target="34" id="0">
+      <data key="d7">521650108</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7200694410957874</data>
+      <data key="d10">LINESTRING (3.63 10.83, 4.35 10.82)</data>
+    </edge>	
+
+
+<!-- the intersections area  p25 -->	
+    <edge source="34" target="37" id="0">
+      <data key="d7">521650109</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863909</data>
+      <data key="d10">LINESTRING (4.35 10.82, 5.09 10.64)</data>
+    </edge>		
+	
+	
+<!-- the intersections area  p26 -->	
+    <edge source="37" target="33" id="0">
+      <data key="d7">521650110</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863909</data>
+      <data key="d10">LINESTRING (5.09 10.64, 4.35 10.46)</data>
+    </edge>	
+	
+	
+	
+<!-- the intersections area  p26 -->	
+    <edge source="33" target="6" id="0">
+      <data key="d7">521650111</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7201514803843834</data>
+      <data key="d10">LINESTRING (4.35 10.46, 3.96 10.46, 3.63 10.47)</data>
+    </edge>	
+
+
+<!-- the intersections area  p27 -->	
+    <edge source="6" target="9" id="0">
+      <data key="d7">521650112</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7907591289387684</data>
+      <data key="d10">LINESTRING (3.63 10.47, 2.86 10.65)</data>
+    </edge>		
+
+
+
+<!-- the intersections area  p28 -->	
+    <edge source="9" target="1" id="0">
+      <data key="d7">521650113</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7810249675906651</data>
+      <data key="d10">LINESTRING (2.86 10.65, 2.1 10.47)</data>
+    </edge>		
+
+
+<!-- the intersections area  p29 -->	
+    <edge source="1" target="70" id="0">
+      <data key="d7">521650114</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7201470270338992</data>
+      <data key="d10">LINESTRING (2.1 10.47, 1.72 10.47, 1.38 10.46)</data>
+    </edge>			
+	
+<!-- the intersections area  30 -->	
+    <edge source="70" target="73" id="0">
+      <data key="d7">521650115</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.764002617796562</data>
+      <data key="d10">LINESTRING (1.38 10.46, 0.64 10.65)</data>
+    </edge>		
+
+<!-- the intersections area  31 -->	
+    <edge source="9" target="7" id="0">
+      <data key="d7">521650116</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7833900688673553</data>
+      <data key="d10">LINESTRING (2.86 10.65, 3.05 9.89)</data>
+    </edge>
+	
+	
+<!-- the intersections area  32 -->	
+    <edge source="7" target="136" id="0">
+      <data key="d7">521650117</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1401315561749648</data>
+      <data key="d10">LINESTRING (3.05 9.89, 3.05 9.51, 3.04 9.13, 3.04 8.75)</data>
+    </edge>
+	
+<!-- the intersections area  33 -->	
+    <edge source="136" target="16" id="0">
+      <data key="d7">521650118</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.210245177868272</data>
+      <data key="d10">LINESTRING (3.04 8.75, 3.04 8.36, 3.03 7.98, 3.04 7.54)</data>
+    </edge>
+
+
+<!-- the intersections area  33 -->	
+    <edge source="16" target="19" id="0">
+      <data key="d7">521650119</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (3.04 7.54, 2.86 6.79)</data>
+    </edge>
+
+
+
+<!-- the intersections area  34 -->	
+    <edge source="9" target="8" id="0">
+      <data key="d7">521650120</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7810249675906651</data>
+      <data key="d10">LINESTRING (2.86 10.65, 2.68 9.89)</data>
+    </edge>
+
+<!-- the intersections area  35 -->	
+    <edge source="8" target="141" id="0">
+      <data key="d7">521650121</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.1401315561749648</data>
+      <data key="d10">LINESTRING (2.68 9.89, 2.68 9.51, 2.67 9.13, 2.67 8.75)</data>
+    </edge>
+
+
+<!-- the intersections area  36 -->	
+    <edge source="141" target="15" id="0">
+      <data key="d7">521650122</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">1.2101136216933077</data>
+      <data key="d10">LINESTRING (2.67 8.75, 2.67 8.36, 2.67 7.98, 2.68 7.54)</data>
+    </edge>
+
+
+<!-- the intersections area  37 -->	
+    <edge source="15" target="19" id="0">
+      <data key="d7">521650123</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (2.68 7.54, 2.86 6.79)</data>
+    </edge>
+
+
+<!-- the intersections area  38 -->	
+    <edge source="53" target="41" id="0">
+      <data key="d7">521650124</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7202785832088634</data>
+      <data key="d10">LINESTRING (4.33 13.36, 3.95 13.37, 3.61 13.36)</data>
+    </edge>
+
+
+<!-- the intersections area  39 -->	
+    <edge source="41" target="46" id="0">
+      <data key="d7">521650125</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7640026177965624</data>
+      <data key="d10">LINESTRING (3.61 13.36, 2.87 13.55)</data>
+    </edge>
+
+
+
+<!-- the intersections area  40 -->	
+    <edge source="46" target="40" id="0">
+      <data key="d7">521650126</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863906</data>
+      <data key="d10">LINESTRING (2.87 13.55, 3.61 13.73)</data>
+    </edge>
+	
+	
+<!-- the intersections area  41 -->
+    <edge source="40" target="54" id="0">
+      <data key="d7">521650127</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7200000000000002</data>
+      <data key="d10">LINESTRING (3.61 13.73, 4.33 13.73)</data>
+    </edge>
+
+
+<!-- the intersections area  42 -->
+    <edge source="46" target="42" id="0">
+      <data key="d7">521650128</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (2.87 13.55, 3.05 12.8)</data>
+    </edge>
+
+
+<!-- the intersections area  43 -->
+    <edge source="42" target="99" id="0">
+      <data key="d7">521650129</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7600000000000016</data>
+      <data key="d10">LINESTRING (3.05 12.8, 3.05 12.42, 3.05 12.04)</data>
+    </edge>
+
+<!-- the intersections area  44 -->
+    <edge source="99" target="4" id="0">
+      <data key="d7">521650130</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.629999999999999</data>
+      <data key="d10">LINESTRING (3.05 12.04, 3.05 11.66, 3.05 11.41)</data>
+    </edge>
+	
+<!-- the intersections area  45 -->
+    <edge source="4" target="9" id="0">
+      <data key="d7">521650131</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7833900688673553</data>
+      <data key="d10">LINESTRING (3.05 11.41, 2.86 10.65)</data>
+    </edge>
+
+<!-- the intersections area  46 -->
+    <edge source="9" target="3" id="0">
+      <data key="d7">521650132</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7810249675906651</data>
+      <data key="d10">LINESTRING (2.86 10.65, 2.68 11.41)</data>
+    </edge>
+
+<!-- the intersections area  47 -->
+    <edge source="3" target="102" id="0">
+      <data key="d7">521650133</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.760131556174964</data>
+      <data key="d10">LINESTRING (2.68 11.41, 2.68 11.79, 2.67 12.17)</data>
+    </edge>
+
+<!-- the intersections area  48 -->
+    <edge source="102" target="43" id="0">
+      <data key="d7">521650134</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6303273470915896</data>
+      <data key="d10">LINESTRING (2.67 12.17, 2.68 12.54, 2.69 12.8)</data>
+    </edge>
+
+
+<!-- the intersections area  49 -->
+    <edge source="43" target="46" id="0">
+      <data key="d7">521650135</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (2.69 12.8, 2.87 13.55)</data>
+    </edge>
+
+
+<!-- the intersections area  50 -->
+    <edge source="46" target="44" id="0">
+      <data key="d7">521650136</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7736924453553882</data>
+      <data key="d10">LINESTRING (2.87 13.55, 2.12 13.36)</data>
+    </edge>
+
+
+
+<!-- the intersections area  51 -->
+    <edge source="44" target="76" id="0">
+      <data key="d7">521650137</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7400000000000002</data>
+      <data key="d10">LINESTRING (2.12 13.36, 1.74 13.36, 1.38 13.36)</data>
+    </edge>
+
+<!-- the intersections area  52 -->
+    <edge source="76" target="82" id="0">
+      <data key="d7">521650138</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7640026177965625</data>
+      <data key="d10">LINESTRING (1.38 13.36, 0.64 13.55)</data>
+    </edge>
+
+
+<!-- the intersections area  53 -->
+    <edge source="82" target="78" id="0">
+      <data key="d7">521650139</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863907</data>
+      <data key="d10">LINESTRING (0.64 13.55, 1.38 13.73)</data>
+    </edge>
+
+
+<!-- the intersections area  54 -->
+    <edge source="78" target="45" id="0">
+      <data key="d7">521650140</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7402704182823465</data>
+      <data key="d10">LINESTRING (1.38 13.73, 1.76 13.74, 2.12 13.73)</data>
+    </edge>
+
+<!-- the intersections area  55 -->
+    <edge source="45" target="46" id="0">
+      <data key="d7">521650141</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (2.12 13.73, 2.87 13.55)</data>
+    </edge>
+
+
+<!-- the intersections area  56 -->
+    <edge source="82" target="80" id="0">
+      <data key="d7">521650141</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7712976079309465</data>
+      <data key="d10">LINESTRING (0.64 13.55, 0.82 12.8)</data>
+    </edge>
+
+<!-- the intersections area  57 -->
+    <edge source="80" target="93" id="0">
+      <data key="d7">521650142</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7600000000000016</data>
+      <data key="d10">LINESTRING (0.82 12.8, 0.82 12.42, 0.82 12.04)</data>
+    </edge>
+	
+	
+<!-- the intersections area  58 -->
+    <edge source="93" target="68" id="0">
+      <data key="d7">521650143</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6499999999999986</data>
+      <data key="d10">LINESTRING (0.82 12.04, 0.82 11.66, 0.82 11.39)</data>
+    </edge>
+
+
+
+<!-- the intersections area  59 -->
+    <edge source="68" target="73" id="0">
+      <data key="d7">521650144</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.761577310586391</data>
+      <data key="d10">LINESTRING (0.82 11.39, 0.64 10.65)</data>
+    </edge>
+
+
+<!-- the intersections area  59 -->
+    <edge source="73" target="67" id="0">
+      <data key="d7">521650145</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7640026177965625</data>
+      <data key="d10">LINESTRING (0.64 10.65, 0.45 11.39)</data>
+    </edge>
+
+<!-- the intersections area  60 -->
+    <edge source="67" target="96" id="0">
+      <data key="d7">521650146</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.760131556174964</data>
+      <data key="d10">LINESTRING (0.45 11.39, 0.46 11.77, 0.46 12.15)</data>
+    </edge>
+
+
+<!-- the intersections area  61 -->
+    <edge source="96" target="81" id="0">
+      <data key="d7">521650147</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.6501785145224384</data>
+      <data key="d10">LINESTRING (0.46 12.15, 0.46 12.52, 0.45 12.8)</data>
+    </edge>
+
+
+<!-- the intersections area  62 -->
+    <edge source="81" target="82" id="0">
+      <data key="d7">521650148</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.773692445355388</data>
+      <data key="d10">LINESTRING (0.45 12.8, 0.64 13.55)</data>
+    </edge>
+
+
+<!-- the intersections area  62 -->
+    <edge source="82" target="76" id="0">
+      <data key="d7">521650149</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7640026177965606</data>
+      <data key="d10">LINESTRING (0.64 13.55, 0.45 14.29)</data>
+    </edge>
+
+
+<!-- the intersections area  62 -->
+    <edge source="76" target="85" id="0">
+      <data key="d7">521650150</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.380131556174965</data>
+      <data key="d10">LINESTRING (0.45 14.29, 0.46 14.67)</data>
+    </edge>
+
+<!-- the intersections area  63 -->
+    <edge source="77" target="82" id="0">
+      <data key="d7">521650151</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.7615773105863892</data>
+      <data key="d10">LINESTRING (0.82 14.29, 0.64 13.55)</data>
+    </edge>
+
+<!-- the intersections area  64 -->
+    <edge source="86" target="77" id="0">
+      <data key="d7">521650152</data>
+      <data key="d8">residential</data>
+      <data key="d14">yes</data>
+      <data key="d9">0.380131556174965</data>
+      <data key="d10">LINESTRING (0.83 14.67, 0.82 14.29)</data>
+    </edge>
+
+
+	
+    <data key="d0">2021-03-31 01:58:27</data>
+    <data key="d1">OSMnx 1.0.1</data>
+	<data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+  </graph>
+</graphml>

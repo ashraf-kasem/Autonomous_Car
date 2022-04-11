@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="access" attr.type="string" />
+  <key id="d13" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d12" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d11" for="edge" attr.name="name" attr.type="string" />
+  <key id="d10" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d9" for="edge" attr.name="length" attr.type="string" />
+  <key id="d8" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d7" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d6" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d5" for="node" attr.name="x" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+  
+  <!-- the nodes that belongs to the one way road besid the motor highway -->
+<!--     <node id="314">
+      <data key="d0">8.38</data>
+      <data key="d1">14.03</data>
+    </node> -->
+ <!--    <node id="426">
+      <data key="d0">9.09</data>
+      <data key="d1">14.07</data>
+    </node>
+    <node id="427">
+      <data key="d0">9.47</data>
+      <data key="d1">14.11</data>
+    </node>
+    <node id="428">
+      <data key="d0">9.84</data>
+      <data key="d1">14.1</data>
+    </node>
+    <node id="429">
+      <data key="d0">10.22</data>
+      <data key="d1">14.07</data>
+    </node>
+    <node id="430">
+      <data key="d0">10.59</data>
+      <data key="d1">13.98</data>
+    </node>
+    <node id="431">
+      <data key="d0">10.94</data>
+      <data key="d1">13.84</data>
+    </node>
+    <node id="432">
+      <data key="d0">11.26</data>
+      <data key="d1">13.63</data>
+    </node>
+    <node id="433">
+      <data key="d0">11.57</data>
+      <data key="d1">13.42</data>
+    </node>
+    <node id="434">
+      <data key="d0">11.84</data>
+      <data key="d1">13.15</data>
+    </node> -->
+<!--     <node id="435">
+      <data key="d0">12.1</data>
+      <data key="d1">12.87</data>
+    </node>
+    <node id="436">
+      <data key="d0">12.42</data>
+      <data key="d1">12.67</data>
+    </node>
+    <node id="437">
+      <data key="d0">12.8</data>
+      <data key="d1">12.64</data>
+    </node>
+    <node id="438">
+      <data key="d0">13.18</data>
+      <data key="d1">12.66</data>
+    </node>
+    <node id="439">
+      <data key="d0">13.53</data>
+      <data key="d1">12.53</data>
+    </node>
+    <node id="440">
+      <data key="d0">13.82</data>
+      <data key="d1">12.29</data>
+    </node>
+    <node id="441">
+      <data key="d0">14.0</data>
+      <data key="d1">11.96</data>
+    </node>
+    <node id="442">
+      <data key="d0">14.07</data>
+      <data key="d1">11.58</data>
+    </node>
+    <node id="443">
+      <data key="d0">13.96</data>
+      <data key="d1">11.21</data>
+    </node>
+    <node id="444">
+      <data key="d0">13.72</data>
+      <data key="d1">10.92</data>
+    </node>
+    <node id="445">
+      <data key="d0">13.39</data>
+      <data key="d1">10.72</data>
+    </node>
+    <node id="446">
+      <data key="d0">13.01</data>
+      <data key="d1">10.68</data>
+    </node> -->
+<!--     <node id="447">
+      <data key="d0">12.63</data>
+      <data key="d1">10.62</data>
+    </node>
+    <node id="448">
+      <data key="d0">12.29</data>
+      <data key="d1">10.46</data>
+    </node>
+    <node id="449">
+      <data key="d0">12.03</data>
+      <data key="d1">10.18</data>
+    </node>
+    <node id="450">
+      <data key="d0">11.87</data>
+      <data key="d1">9.83</data>
+    </node>
+    <node id="451">
+      <data key="d0">11.84</data>
+      <data key="d1">9.44</data>
+    </node>
+    <node id="452">
+      <data key="d0">11.94</data>
+      <data key="d1">9.08</data>
+    </node>
+    <node id="453">
+      <data key="d0">12.16</data>
+      <data key="d1">8.76</data>
+    </node>
+    <node id="454">
+      <data key="d0">12.33</data>
+      <data key="d1">8.43</data>
+    </node>
+    <node id="455">
+      <data key="d0">12.45</data>
+      <data key="d1">8.06</data>
+    </node>
+    <node id="456">
+      <data key="d0">12.61</data>
+      <data key="d1">7.72</data>
+    </node>
+    <node id="457">
+      <data key="d0">12.89</data>
+      <data key="d1">7.46</data>
+    </node>
+    <node id="458">
+      <data key="d0">13.21</data>
+      <data key="d1">7.24</data>
+    </node> -->
+<!--     <node id="459">
+      <data key="d0">13.38</data>
+      <data key="d1">6.91</data>
+    </node>
+    <node id="460">
+      <data key="d0">13.43</data>
+      <data key="d1">6.53</data>
+    </node>
+    <node id="461">
+      <data key="d0">13.33</data>
+      <data key="d1">6.16</data>
+    </node>
+    <node id="462">
+      <data key="d0">13.1</data>
+      <data key="d1">5.85</data>
+    </node>
+    <node id="463">
+      <data key="d0">12.76</data>
+      <data key="d1">5.69</data>
+    </node>
+    <node id="464">
+      <data key="d0">12.42</data>
+      <data key="d1">5.52</data>
+    </node>
+    <node id="465">
+      <data key="d0">12.13</data>
+      <data key="d1">5.26</data>
+    </node>
+    <node id="466">
+      <data key="d0">11.94</data>
+      <data key="d1">4.93</data>
+    </node>
+    <node id="467">
+      <data key="d0">11.87</data>
+      <data key="d1">4.55</data>
+    </node>
+ -->
+  
+<!--     <node id="308">
+      <data key="d0">6.2</data>
+      <data key="d1">13.77</data>
+    </node>
+    <node id="309">
+      <data key="d0">6.52</data>
+      <data key="d1">13.97</data>
+    </node>
+    <node id="310">
+      <data key="d0">6.87</data>
+      <data key="d1">14.12</data>
+    </node>
+    <node id="311">
+      <data key="d0">7.24</data>
+      <data key="d1">14.12</data>
+    </node>
+    <node id="312">
+      <data key="d0">7.62</data>
+      <data key="d1">14.12</data>
+    </node>
+    <node id="313">
+      <data key="d0">8.0</data>
+      <data key="d1">14.08</data>
+    </node> -->
+<!--     <node id="314">
+      <data key="d0">8.38</data>
+      <data key="d1">14.03</data>
+    </node>
+	
+    </node>
+    <node id="315">
+      <data key="d0">8.74</data>
+      <data key="d1">13.93</data>
+    </node>
+    <node id="316">
+      <data key="d0">9.09</data>
+      <data key="d1">13.78</data>
+    </node>
+    <node id="317">
+      <data key="d0">9.42</data>
+      <data key="d1">13.59</data>
+    </node>
+    <node id="318">
+      <data key="d0">9.73</data>
+      <data key="d1">13.37</data>
+    </node>
+    <node id="319">
+      <data key="d0">10.02</data>
+      <data key="d1">13.13</data>
+    </node>
+    <node id="320">
+      <data key="d0">10.29</data>
+      <data key="d1">12.86</data>
+    </node>
+    <node id="321">
+      <data key="d0">10.51</data>
+      <data key="d1">12.55</data>
+    </node>
+    <node id="322">
+      <data key="d0">10.71</data>
+      <data key="d1">12.22</data>
+    </node>
+    <node id="323">
+      <data key="d0">10.87</data>
+      <data key="d1">11.88</data>
+    </node>
+    <node id="324">
+      <data key="d0">11.01</data>
+      <data key="d1">11.52</data>
+    </node> -->
+<!--     <node id="325">
+      <data key="d0">11.08</data>
+      <data key="d1">11.15</data>
+    </node>
+  
+     <node id="326">
+      <data key="d0">11.13</data>
+      <data key="d1">10.77</data>
+    </node>
+    <node id="327">
+      <data key="d0">11.12</data>
+      <data key="d1">10.39</data>
+    </node>
+    <node id="328">
+      <data key="d0">11.08</data>
+      <data key="d1">10.01</data>
+    </node>
+    <node id="329">
+      <data key="d0">10.98</data>
+      <data key="d1">9.64</data>
+    </node>
+    <node id="330">
+      <data key="d0">10.86</data>
+      <data key="d1">9.28</data>
+    </node>
+    <node id="331">
+      <data key="d0">10.73</data>
+      <data key="d1">8.92</data>
+    </node>
+    <node id="332">
+      <data key="d0">10.61</data>
+      <data key="d1">8.55</data>
+    </node>
+    <node id="333">
+      <data key="d0">10.53</data>
+      <data key="d1">8.18</data>
+    </node>
+    <node id="334">
+      <data key="d0">10.47</data>
+      <data key="d1">7.8</data>
+    </node> -->
+<!--     <node id="335">
+      <data key="d0">10.44</data>
+      <data key="d1">7.42</data>
+    </node> 
+     <node id="336">
+      <data key="d0">10.43</data>
+      <data key="d1">7.04</data>
+    </node>
+    <node id="337">
+      <data key="d0">10.42</data>
+      <data key="d1">6.66</data>
+    </node>
+    <node id="338">
+      <data key="d0">10.42</data>
+      <data key="d1">6.28</data>
+    </node>
+    <node id="339">
+      <data key="d0">10.42</data>
+      <data key="d1">5.9</data>
+    </node>
+    <node id="340">
+      <data key="d0">10.36</data>
+      <data key="d1">5.52</data>
+    </node>
+    <node id="341">
+      <data key="d0">10.15</data>
+      <data key="d1">5.2</data>
+    </node>
+    <node id="342">
+      <data key="d0">10.03</data>
+      <data key="d1">4.84</data>
+    </node>  -->
+<!-- 	    <node id="305">
+      <data key="d0">10.11</data>
+      <data key="d1">4.35</data>
+    </node> -->
+<!-- 	    
+    <node id="307">
+      <data key="d0">10.5</data>
+      <data key="d1">3.74</data>
+    </node> -->
+<!-- 	    <node id="267">
+      <data key="d0">10.46</data>
+      <data key="d1">3.44</data>
+    </node>
+    <node id="268">
+      <data key="d0">10.17</data>
+      <data key="d1">3.19</data>
+    </node>
+    <node id="269">
+      <data key="d0">9.8</data>
+      <data key="d1">3.1</data>
+    </node>
+    <node id="270">
+      <data key="d0">9.45</data>
+      <data key="d1">3.25</data>
+    </node> -->
+<!--     <node id="271">
+      <data key="d0">9.21</data>
+      <data key="d1">3.53</data>
+    </node> -->
+<!-- 	    <node id="302">
+      <data key="d0">9.11</data>
+      <data key="d1">3.94</data>
+    </node>
+	    <node id="303">
+      <data key="d0">9.39</data>
+      <data key="d1">4.19</data>
+    </node> -->
+<!--     <node id="304">
+      <data key="d0">9.74</data>
+      <data key="d1">4.35</data>
+    </node> -->
+	
+<!-- 	 <node id="305">
+      <data key="d0">10.11</data>
+      <data key="d1">4.35</data>
+    </node>
+	<node id="306">
+      <data key="d0">10.4</data>
+      <data key="d1">4.1</data>
+    </node>
+	<node id="231">
+      <data key="d0">10.84</data>
+      <data key="d1">3.94</data>
+    </node>
+    <node id="232">
+      <data key="d0">11.21</data>
+      <data key="d1">3.94</data>
+    </node>
+    <node id="233">
+      <data key="d0">11.59</data>
+      <data key="d1">3.93</data>
+    </node> -->
+<!-- 	<node id="468">
+      <data key="d0">11.87</data>
+      <data key="d1">4.17</data>
+    </node> -->
+<!--     <node id="228">
+      <data key="d0">11.59</data>
+      <data key="d1">3.55</data>
+    </node>
+    <node id="229">
+      <data key="d0">11.21</data>
+      <data key="d1">3.56</data>
+    </node>
+    <node id="230">
+      <data key="d0">10.83</data>
+      <data key="d1">3.56</data>
+    </node>
+	<node id="267">
+      <data key="d0">10.46</data>
+      <data key="d1">3.44</data>
+    </node> -->
+	
+	
+<!-- 	   <node id="222">
+      <data key="d0">13.71</data>
+      <data key="d1">3.03</data>
+    </node>
+    <node id="223">
+      <data key="d0">13.44</data>
+      <data key="d1">3.3</data>
+    </node>
+    <node id="224">
+      <data key="d0">13.11</data>
+      <data key="d1">3.49</data>
+    </node>
+    <node id="225">
+      <data key="d0">12.73</data>
+      <data key="d1">3.56</data>
+    </node>
+    <node id="226">
+      <data key="d0">12.35</data>
+      <data key="d1">3.56</data>
+    </node>
+    <node id="227">
+      <data key="d0">11.97</data>
+      <data key="d1">3.54</data>
+    </node>
+    <node id="228">
+      <data key="d0">11.59</data>
+      <data key="d1">3.55</data>
+    </node> -->
+<!-- 	<node id="304">
+      <data key="d0">9.74</data>
+      <data key="d1">4.35</data>
+    </node>
+	<node id="343">
+      <data key="d0">9.68</data>
+      <data key="d1">4.73</data>
+    </node>
+    <node id="344">
+      <data key="d0">9.65</data>
+      <data key="d1">5.1</data>
+    </node>
+    <node id="345">
+      <data key="d0">9.44</data>
+      <data key="d1">5.43</data>
+    </node>
+    <node id="346">
+      <data key="d0">9.32</data>
+      <data key="d1">5.78</data>
+    </node>
+    <node id="347">
+      <data key="d0">9.31</data>
+      <data key="d1">6.16</data>
+    </node>
+    <node id="348">
+      <data key="d0">9.3</data>
+      <data key="d1">6.54</data>
+    </node>
+    <node id="349">
+      <data key="d0">9.31</data>
+      <data key="d1">6.91</data>
+    </node>
+    <node id="350">
+      <data key="d0">9.32</data>
+      <data key="d1">7.29</data>
+    </node> -->
+	
+<!--     <node id="350">
+      <data key="d0">9.32</data>
+      <data key="d1">7.29</data>
+    </node>
+    <node id="351">
+      <data key="d0">9.34</data>
+      <data key="d1">7.67</data>
+    </node>
+    <node id="352">
+      <data key="d0">9.38</data>
+      <data key="d1">8.05</data>
+    </node>
+    <node id="353">
+      <data key="d0">9.44</data>
+      <data key="d1">8.42</data>
+    </node>
+    <node id="354">
+      <data key="d0">9.53</data>
+      <data key="d1">8.78</data>
+    </node>
+    <node id="355">
+      <data key="d0">9.62</data>
+      <data key="d1">9.15</data>
+    </node>
+    <node id="356">
+      <data key="d0">9.76</data>
+      <data key="d1">9.5</data>
+    </node>
+    <node id="357">
+      <data key="d0">9.9</data>
+      <data key="d1">9.85</data>
+    </node>
+    <node id="358">
+      <data key="d0">9.98</data>
+      <data key="d1">10.22</data>
+    </node>
+    <node id="359">
+      <data key="d0">10.0</data>
+      <data key="d1">10.6</data>
+    </node>
+    <node id="360">
+      <data key="d0">9.98</data>
+      <data key="d1">10.98</data>
+    </node>	 -->
+<!--     <node id="360">
+      <data key="d0">9.98</data>
+      <data key="d1">10.98</data>
+    </node>
+    <node id="361">
+      <data key="d0">9.9</data>
+      <data key="d1">11.35</data>
+    </node>
+    <node id="362">
+      <data key="d0">9.75</data>
+      <data key="d1">11.7</data>
+    </node>
+    <node id="363">
+      <data key="d0">9.55</data>
+      <data key="d1">12.02</data>
+    </node>
+    <node id="364">
+      <data key="d0">9.3</data>
+      <data key="d1">12.31</data>
+    </node>
+    <node id="365">
+      <data key="d0">9.02</data>
+      <data key="d1">12.56</data>
+    </node>
+    <node id="366">
+      <data key="d0">8.7</data>
+      <data key="d1">12.76</data>
+    </node>
+    <node id="367">
+      <data key="d0">8.34</data>
+      <data key="d1">12.88</data>
+    </node>
+    <node id="368">
+      <data key="d0">7.97</data>
+      <data key="d1">12.98</data>
+    </node>
+    <node id="369">
+      <data key="d0">7.59</data>
+      <data key="d1">13.01</data>
+    </node>
+    <node id="370">
+      <data key="d0">7.21</data>
+      <data key="d1">13.0</data>
+    </node>	 -->
+	
+<!-- 	    <node id="370">
+      <data key="d0">7.21</data>
+      <data key="d1">13.0</data>
+    </node>
+    <node id="371">
+      <data key="d0">6.83</data>
+      <data key="d1">12.98</data>
+    </node>
+    <node id="372">
+      <data key="d0">6.44</data>
+      <data key="d1">12.97</data>
+    </node>
+    <node id="373">
+      <data key="d0">6.06</data>
+      <data key="d1">12.99</data>
+    </node> -->
+<!--     <node id="374">
+      <data key="d0">5.68</data>
+      <data key="d1">12.97</data>
+    </node> -->
+<!--     <node id="55">
+      <data key="d0">5.08</data>
+      <data key="d1">13.55</data>
+    </node>
+    <node id="49">
+      <data key="d0">5.83</data>
+      <data key="d1">13.73</data>
+    </node>	
+	 <node id="308">
+      <data key="d0">6.2</data>
+      <data key="d1">13.77</data>
+    </node> -->
+    <node id="86">
+      <data key="d0">0.83</data>
+      <data key="d1">14.67</data>
+    </node>	
+    <node id="77">
+      <data key="d0">0.82</data>
+      <data key="d1">14.29</data>
+    </node>
+
+
+
+
+<!--     <node id="234">
+      <data key="d0">11.97</data>
+      <data key="d1">3.93</data>
+    </node> -->
+<!-- 	
+	    <node id="234">
+      <data key="d0">11.97</data>
+      <data key="d1">3.93</data>
+    </node>
+    <node id="235">
+      <data key="d0">12.34</data>
+      <data key="d1">3.93</data>
+    </node>
+    <node id="236">
+      <data key="d0">12.72</data>
+      <data key="d1">3.93</data>
+    </node>
+    <node id="237">
+      <data key="d0">13.09</data>
+      <data key="d1">3.87</data>
+    </node>
+    <node id="238">
+      <data key="d0">13.45</data>
+      <data key="d1">3.73</data>
+    </node>
+    <node id="239">
+      <data key="d0">13.74</data>
+      <data key="d1">3.49</data>
+    </node> -->
+ <!--    <node id="240">
+      <data key="d0">14.0</data>
+      <data key="d1">3.21</data>
+    </node> -->
+	
+<!--     <node id="306">
+      <data key="d0">10.4</data>
+      <data key="d1">4.1</data>
+    </node>
+    <node id="231">
+      <data key="d0">10.84</data>
+      <data key="d1">3.94</data>
+    </node>
+    <node id="232">
+      <data key="d0">11.21</data>
+      <data key="d1">3.94</data>
+    </node>	 -->
+	
+	
+<!--     <node id="468">
+      <data key="d0">11.87</data>
+      <data key="d1">4.17</data>
+    </node> --> -->
+   <!-- the one way road besid the motor highway --> 
+    <edge source="314" target="468" id="0">
+      <data key="d7">521650292</data>
+      <data key="d8">residential</data>
+	  <data key="d13">yes</data>
+      <data key="d9">16.708223235159192</data>
+      <data key="d10">LINESTRING (8.38 14.03, 9.09 14.07, 9.47 14.11, 9.84 14.1, 10.22 14.07, 10.59 13.98, 10.94 13.84, 11.26 13.63, 11.57 13.42, 11.84 13.15, 12.1 12.87, 12.42 12.67, 12.8 12.64, 13.18 12.66, 13.53 12.53, 13.82 12.29, 14.0 11.96, 14.07 11.58, 13.96 11.21, 13.72 10.92, 13.39 10.72, 13.01 10.68, 12.63 10.62, 12.29 10.46, 12.03 10.18, 11.87 9.83, 11.84 9.44, 11.94 9.08, 12.16 8.76, 12.33 8.43, 12.45 8.06, 12.61 7.72, 12.89 7.46, 13.21 7.24, 13.38 6.91, 13.43 6.53, 13.33 6.16, 13.1 5.85, 12.76 5.69, 12.42 5.52, 12.13 5.26, 11.94 4.93, 11.87 4.55, 11.87 4.17)</data>
+    </edge>
+  
+  
+  
+  
+  
+    <data key="d0">2021-03-31 01:58:27</data>
+    <data key="d1">OSMnx 1.0.1</data>
+	<data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+  </graph>
+</graphml>
